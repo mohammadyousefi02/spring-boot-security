@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: postgres
+    password: 123321123
+    url: jdbc:postgresql://localhost:5432/test-sb-security
+
+  main:
+    allow-circular-references: true
+jwt:
+  secretKey: thisis1security2appsec3retkeythisisformakeitmorestrong
+  expiration: 86400000
